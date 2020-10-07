@@ -1,23 +1,8 @@
-import React, { Component } from 'react';
-import { Paper, Tabs } from 'material-ui';
-import { Tab } from 'material-ui/Tabs';
+import React from 'react';
 
-
-
-
-export default props => 
-<Paper >
-    <Tabs
-    value={0}
-        onChange={this.handleChange}
-        indicatorColor="primary"
-        textColor="primary"
-        centered
-        >
-       <Tab label ="Item One" />     
-       <Tab label ="Item One" />     
-
-       <Tab label ="Item One" />     
-
-    </Tabs>
-</Paper>
+export default props =>
+<div>
+  <h1>
+      hi from React
+  </h1>
+</div>

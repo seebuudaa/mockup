@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
+import{ Paper } from 'material-ui';
 
-export default props => 
-<div>
-    <h1>
-        Hello from Leftpane
-    </h1>
-</div>
+export default props =>
+ <Paper style ={style.Paper}> 
+    Left pane
+ </Paper>

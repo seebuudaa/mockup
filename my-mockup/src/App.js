@@ -1,17 +1,16 @@
-import { React, Fragment, Component } from 'react';
-import { Footer, Header } from './Components/Layouts';
-import Reviews from "./Components/Reviews"
+import  React, { Fragment, Component } from 'react';
+import  { Header, Footer } from './Components/Layouts';
+import  Reviews from './Components/Reviews';
 
 
 
 export default class extends Component {
   render() {
-    return (
-      <Fragment>
+    return (<Fragment>
         <Header />
         <Reviews />
         <Footer />
       </Fragment>
     );
-  }
-}
+  };
+};
